@@ -613,6 +613,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8"
         },
         "runtime": {
@@ -623,6 +624,7 @@
         "dependencies": {
           "Core": "1.0.0",
           "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8"
         },
         "runtime": {

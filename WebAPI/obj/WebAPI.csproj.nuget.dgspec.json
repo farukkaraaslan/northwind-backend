@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\4362448\\source\\repos\\Backend-Nortwind\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\faruk\\Desktop\\C# Project\\northwind-backend\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\4362448\\source\\repos\\Backend-Nortwind\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\faruk\\Desktop\\C# Project\\northwind-backend\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4362448\\source\\repos\\Backend-Nortwind\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\faruk\\Desktop\\C# Project\\northwind-backend\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\4362448\\source\\repos\\Backend-Nortwind\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\4362448\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4362448\\source\\repos\\Backend-Nortwind\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\faruk\\Desktop\\C# Project\\northwind-backend\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\faruk\\Desktop\\C# Project\\northwind-backend\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\4362448\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

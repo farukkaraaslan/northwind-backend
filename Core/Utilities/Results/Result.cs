@@ -10,13 +10,13 @@ public class Result : IResult
 {
     //get readonlydir
     // readonly constructorda set edeilebilir
-    public Result( string message)
+    public Result(bool success, string message):this(success)
     {
         Message= message;
     }  
-    public Result(bool succes)
+    public Result(bool success)
     {
-        Success= succes;
+        Success= success;
     }
 
     public bool Success { get; }

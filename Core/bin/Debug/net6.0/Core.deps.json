@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Core/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8"
         },
         "runtime": {
