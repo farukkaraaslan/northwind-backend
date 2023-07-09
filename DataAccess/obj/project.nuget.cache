@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NDpO4y5AtUA1gZyUOGL5ooCc59kbOCgUBQk1R3/GKO6pu5FzWpv4x5qw31YMRS2zN7C4Kya8PLBL8qRHtm5ziw==",
+  "dgSpecHash": "RP9rx+P7DGFfiziuHnA4DioBCWdrnTcPDL7wKsdzVer6d/9PejK7BjEeuwwF7Uhfl2/mhE8LsK8a5nv2Pb1THA==",
   "success": true,
   "projectFilePath": "C:\\Users\\faruk\\Desktop\\C# Project\\northwind-backend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\faruk\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.8\\microsoft.entityframeworkcore.sqlserver.7.0.8.nupkg.sha512",
     "C:\\Users\\faruk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\faruk\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\faruk\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\faruk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\faruk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\faruk\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
