@@ -13,7 +13,5 @@ namespace DataAccess.Concrete.EntityFramework;
 
 public class EfCustomerDal : EfEntityRepositoryBase<Customer, NortwindDbContext>, ICustomerDal
 {
-    public EfCustomerDal(DbContext context) : base(context)
-    {
-    }
+
 }

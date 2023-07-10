@@ -12,7 +12,5 @@ namespace DataAccess.Concrete.EntityFramework;
 
 public class EfOrderDal : EfEntityRepositoryBase<Order, NortwindDbContext>, IOrderDal
 {
-    public EfOrderDal(DbContext context) : base(context)
-    {
-    }
+
 }

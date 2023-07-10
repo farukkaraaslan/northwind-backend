@@ -39,6 +39,6 @@ public class CustomerManager : ICustomerService
 
     public IDataResult<Customer> GetById(string customerId)
     {
-        return new SuccessDataResult<Customer>(customerDal.Get(c=>c.CustomerId==customerId));
+        return new SuccessDataResult<Customer>(customerDal.Get(c=>c.Id==customerId));
     }
 }

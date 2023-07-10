@@ -17,7 +17,7 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult Get()
+    public IActionResult GetAll()
     {
         var result = productService.GetAll();
         if (result.Success)
@@ -28,7 +28,7 @@ public class ProductsController : ControllerBase
         return BadRequest(result);
     } 
 
-    [HttpGet]
+    [HttpGet("{id}")]
     public IActionResult GetById(int id)
     {
         var result = productService.GetById(id);
@@ -44,6 +44,26 @@ public class ProductsController : ControllerBase
     public IActionResult Add([FromBody] Product product)
     {
         var result=productService.Add(product);
+        if (result.Success)
+        {
+            return Ok(result);
+        }
+        return BadRequest(result);  
+    }
+    [HttpPut]
+    public IActionResult Update([FromBody] Product product)
+    {
+        var result=productService.Update(product);
+        if (result.Success)
+        {
+            return Ok(result);
+        }
+        return BadRequest(result);  
+    }  
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        var result=productService.Delete(id);
         if (result.Success)
         {
             return Ok(result);

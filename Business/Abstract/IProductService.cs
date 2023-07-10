@@ -1,4 +1,4 @@
-﻿using Core.Utilities.Results;
+﻿ using Core.Utilities.Results;
 using Entities.Concrete;
 using Entities.Dtos;
 using System;
@@ -15,5 +15,7 @@ public interface IProductService
     IDataResult<List<ProductDetailDto>> GetProductDetail();
     IDataResult<List<Product>> GetByUnitPirce(decimal min,decimal max);
     IResult Add(Product product);
+    IResult Update(Product product);
+    IResult Delete(int id);
     IDataResult<Product> GetById(int productId);
 }

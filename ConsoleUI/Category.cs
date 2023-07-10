@@ -12,13 +12,12 @@ public static class Category
 {
    public static void GetAll()
     {
-        NortwindDbContext context = new NortwindDbContext();
 
-        CategoryManager categoryManager = new CategoryManager(new EfCategoryDal(context));
+        CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
         var result = categoryManager.GetAll().Data;
         foreach (var category in result)
         {
-            Console.WriteLine(category.CategoryName);
+            Console.WriteLine(category.Name);
         }
     }
 }

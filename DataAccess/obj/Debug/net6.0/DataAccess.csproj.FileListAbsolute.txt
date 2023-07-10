@@ -32,3 +32,5 @@ C:\Users\faruk\Desktop\C# Project\northwind-backend\DataAccess\obj\Debug\net6.0\
 C:\Users\faruk\Desktop\C# Project\northwind-backend\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 C:\Users\faruk\Desktop\C# Project\northwind-backend\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\faruk\Desktop\C# Project\northwind-backend\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\faruk\Desktop\C# Project\northwind-backend\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache

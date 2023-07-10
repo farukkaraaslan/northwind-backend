@@ -37,7 +37,7 @@ public class OrderManager : IOrderService
 
     public IDataResult<Order> GetById(int orderId)
     {
-        return new SuccessDataResult<Order>(orderDal.Get(o=>o.OrderId==orderId));
+        return new SuccessDataResult<Order>(orderDal.Get(o=>o.Id==orderId));
     }
 
     public IDataResult<List<Order>> GetByOrderDate(DateTime orderDate)

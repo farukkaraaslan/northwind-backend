@@ -12,14 +12,13 @@ public static class Customer
 {
     public static void GetAll()
     {
-        NortwindDbContext context = new NortwindDbContext();
-        CustomerManager customerManager = new CustomerManager(new EfCustomerDal(context));
+        CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
         var result = customerManager.GetAll();
         if (result.Success)
         {
             foreach (var customer in result.Data)
             {
-                Console.WriteLine(customer.CustomerId + "/" + customer.CompanyName + "/" + customer.City);
+                Console.WriteLine(customer.Id + "/" + customer.CompanyName + "/" + customer.City);
                 Console.WriteLine(result.Message);
             }
         }

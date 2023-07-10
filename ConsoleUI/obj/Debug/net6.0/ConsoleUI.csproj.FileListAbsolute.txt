@@ -140,3 +140,12 @@ C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\obj\Debug\net6.0\r
 C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\Autofac.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\ConsoleUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

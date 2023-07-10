@@ -1,4 +1,5 @@
 ﻿using Entities.Concrete;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -13,23 +14,17 @@ public class NortwindDbContext:DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        IConfigurationRoot configuration = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-            .Build();
-
-        var connectionString = configuration.GetConnectionString("BaseDb");
-        if (string.IsNullOrWhiteSpace(connectionString))
-        {
-            throw new ArgumentException("PostgreSQL_Connection");
-        }
-
-        optionsBuilder.UseSqlServer(connectionString);
+        optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Northwind;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
     }
-
     public DbSet<Product> Products{ get; set; }
+    public DbSet<Customer> Customers { get; set; }
     public DbSet<Category> Categories{ get; set; }
-    public DbSet<Customer> Customers{ get; set; }
     public DbSet<Order> Orders{ get; set; }
-
+    public DbSet<Employee> Employees{ get; set; }
+    public DbSet<Territory> Territories { get; set; }
+    public DbSet<Shipper> Shippers { get; set; }
+    public DbSet<Region> Regions { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; }
+    public DbSet<EmployeeTerritory> EmployeeTerritories { get; set; }
+    public DbSet<Supplier> Suppliers { get; set; }
 }

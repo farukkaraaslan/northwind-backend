@@ -12,14 +12,13 @@ namespace ConsoleUI
     {
         public static void GetAll()
         {
-            NortwindDbContext context = new NortwindDbContext();
-            ProductManager productManager = new ProductManager(new EfProductDal(context));
+            ProductManager productManager = new ProductManager(new EfProductDal());
             var result = productManager.GetAll();
             if (result.Success)
             {
                 foreach (var product in result.Data)
                 {
-                    Console.WriteLine(product.ProductId + "/" + product.ProductName+"/"+product.UnitPrice);
+                    Console.WriteLine(product.ProductID + "/" + product.ProductName+"/"+product.UnitPrice);
                     Console.WriteLine(result.Message);
                 }
             }
@@ -31,8 +30,8 @@ namespace ConsoleUI
         }
         public static void GetProductDetail()
         {
-            NortwindDbContext context = new NortwindDbContext();
-            ProductManager productManager = new ProductManager(new EfProductDal(context));
+  
+            ProductManager productManager = new ProductManager(new EfProductDal());
             var result = productManager.GetProductDetail();
             if (result.Success)
             {

@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Authentication;
@@ -10,12 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+//.net core defaul IoC yerine basþka bitIoC kullanýlmak istendiðinde.
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
-builder.Services.AddTransient<IProductService, ProductManager>();
-builder.Services.AddTransient<IProductDal, EfProductDal>();
+//yadýgýmýz AutofacBusinessModule verdik
+builder.Host.ConfigureContainer<ContainerBuilder>(builder2 => builder2.RegisterModule(new AutofacBusinessModul()));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

@@ -117,3 +117,17 @@ C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Busi
 C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Entities.pdb
 C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Core.pdb
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Autofac.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\faruk\Desktop\C# Project\northwind-backend\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

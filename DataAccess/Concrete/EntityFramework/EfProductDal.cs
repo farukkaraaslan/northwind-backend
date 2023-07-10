@@ -15,9 +15,7 @@ namespace DataAccess.Concrete.EntityFramework;
 
 public class EfProductDal : EfEntityRepositoryBase<Product, NortwindDbContext>, IProductDal
 {
-    public EfProductDal(DbContext context) : base(context)
-    {
-    }
+ 
 
     public List<ProductDetailDto> GetProductDetails()
     {
@@ -25,12 +23,12 @@ public class EfProductDal : EfEntityRepositoryBase<Product, NortwindDbContext>, 
         {
             var result = from p in context.Products
                          join c in context.Categories
-                         on p.CategoryId equals c.CategoryId
+                         on p.CategoryId equals c.Id
                          select new ProductDetailDto
                          {
-                             ProductId = p.ProductId,
+                             ProductId = p.ProductID,
                              ProductName = p.ProductName,
-                             CategoryName = c.CategoryName,
+                             CategoryName = c.Name,
                              UnitsStock = p.UnitsInStock,
 
                          };
