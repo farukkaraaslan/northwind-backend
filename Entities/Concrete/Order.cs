@@ -22,6 +22,6 @@ public class Order:IEntity
     public string ShipCity { get; set; }
     public string ShipCountry { get; set; }
     public string? ShipRegion { get; set; }
-    public string ShipPostalCode { get; set; }
+    public string? ShipPostalCode { get; set; }
 
 }

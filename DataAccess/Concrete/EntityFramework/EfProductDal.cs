@@ -23,13 +23,23 @@ public class EfProductDal : EfEntityRepositoryBase<Product, NortwindDbContext>, 
         {
             var result = from p in context.Products
                          join c in context.Categories
+                       
                          on p.CategoryId equals c.Id
+                         join s in context.Suppliers
+                         on p.SupplierId equals s.Id
                          select new ProductDetailDto
                          {
                              ProductId = p.ProductID,
                              ProductName = p.ProductName,
+                             SupplierName=s.CompanyName,
                              CategoryName = c.Name,
-                             UnitsStock = p.UnitsInStock,
+                             QuantityPerUnit=p.QuantityPerUnit,
+                             UnitPrice=p.UnitPrice,
+                             UnitsOnOrder=p.UnitsOnOrder,
+                             UnitsInStock = p.UnitsInStock,
+                             ReorderLevel=p.ReorderLevel,
+                             Discontinued=p.Discontinued,
+
 
                          };
             return result.ToList();

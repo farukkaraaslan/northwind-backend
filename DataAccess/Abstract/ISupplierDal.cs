@@ -1,6 +1,5 @@
-﻿
-using Core.DataAccess;
-using Entities.Concrete;
+﻿using Core.DataAccess;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +8,6 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract;
 
-public interface IOrderDal: IEntityRepository<Order>
+public interface ISupplierDal:IEntityRepository<Supplier>
 {
 }

@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.ValidaitonRules.FluentValidaiton;
+using Core.Aspects.Autofact.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -20,9 +22,19 @@ public class OrderManager : IOrderService
         this.orderDal = orderDal;
     }
 
+    [ValidationAspect(typeof(OrderValidator))]
     public IResult Add(Order order)
     {
         return new SuccessDataResult<Order>(order);
+    }
+    [ValidationAspect(typeof(OrderValidator))]
+    public IResult Update(Order order)
+    {
+        return new SuccessDataResult<Order>(order);
+    }
+    public IResult Delete(int id)
+    {
+        throw new NotImplementedException();
     }
 
     public IDataResult<List<Order>> GetAll()
@@ -44,4 +56,6 @@ public class OrderManager : IOrderService
     {
         return new SuccessDataResult<List<Order>>(orderDal.GetAll(o=>o.OrderDate==orderDate));
     }
+
+   
 }
